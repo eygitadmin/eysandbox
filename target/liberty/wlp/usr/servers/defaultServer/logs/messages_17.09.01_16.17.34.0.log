@@ -1,0 +1,51 @@
+********************************************************************************
+product = WebSphere Application Server 17.0.0.2 (wlp-1.0.17.cl170220170523-1818)
+wlp.install.dir = /Users/balarama/Workspace/Sandbox/MyExperiments/get-started-java/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre
+java.version = 1.8.0_121
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_121-b13)
+os = Mac OS X (10.11.6; x86_64) (en_US)
+process = 3733@Balasubramanyas-MacBook-Pro.local
+********************************************************************************
+[1/9/17 16:07:52:070 GST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[1/9/17 16:07:52:089 GST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.2/lafiles/en.html
+[1/9/17 16:07:56:950 GST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 5.706 seconds
+[1/9/17 16:07:57:873 GST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[1/9/17 16:08:03:471 GST] 00000010 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[1/9/17 16:08:04:993 GST] 0000001a com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   I CWWKS4103I: Creating the LTPA keys. This may take a few seconds.
+[1/9/17 16:08:05:098 GST] 00000010 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[1/9/17 16:08:05:353 GST] 0000001a com.ibm.ws.security.token.ltpa.internal.LTPAKeyInfoManager   A CWWKS4104A: LTPA keys created in 0.360 seconds. LTPA key file: /Users/balarama/Workspace/Sandbox/MyExperiments/get-started-java/target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[1/9/17 16:08:05:412 GST] 0000001a com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.478 seconds.
+[1/9/17 16:08:06:134 GST] 00000010 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[1/9/17 16:08:06:699 GST] 0000001d com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[1/9/17 16:08:09:155 GST] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[1/9/17 16:08:09:167 GST] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[1/9/17 16:08:09:169 GST] 00000010 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/9/17 16:08:10:600 GST] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application GetStartedJava.
+[1/9/17 16:08:12:152 GST] 00000020 org.jboss.weld.Version                                       I WELD-000900: 2.4.3 (Final)
+[1/9/17 16:08:13:579 GST] 00000020 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[1/9/17 16:08:13:635 GST] 00000020 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: GetStartedJava-1.0-SNAPSHOT.
+[1/9/17 16:08:13:650 GST] 00000020 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module GetStartedJava-1.0-SNAPSHOT has been bound to default_host.
+[1/9/17 16:08:13:652 GST] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.1.111:9080/GetStartedJava/
+[1/9/17 16:08:13:670 GST] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application GetStartedJava started in 3.071 seconds.
+[1/9/17 16:08:13:735 GST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, ejbLite-3.2, managedBeans-1.0, jsf-2.2, beanValidation-1.1, servlet-3.1, ssl-1.0, jndi-1.0, jsonp-1.0, appSecurity-2.0, jdbc-4.1, jaxrs-2.0, jaxrsClient-2.0, el-3.0, json-1.0, jpaContainer-2.1, cdi-1.2, distributedMap-1.0, webProfile-7.0, websocket-1.1, jpa-2.1].
+[1/9/17 16:08:13:735 GST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 16.800 seconds.
+[1/9/17 16:08:13:736 GST] 00000018 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[1/9/17 16:08:13:900 GST] 0000001b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/GetStartedJava
+[1/9/17 16:08:13:973 GST] 0000001b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/9/17 16:08:15:036 GST] 0000001b com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/9/17 16:08:15:615 GST] 00000019 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/balarama/Workspace/Sandbox/MyExperiments/get-started-java/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[1/9/17 16:09:44:186 GST] 00000045 SystemOut                                                    O Running locally. Looking for credentials in cloudant.properties
+[1/9/17 16:09:44:214 GST] 00000045 SystemOut                                                    O To use a database, set the Cloudant url in src/main/resources/cloudant.properties
+[1/9/17 16:09:44:672 GST] 00000045 .ibm.ws.jaxrs.2.0.common:1.0.17.cl170220170523-1818(id=171)] I Setting the server's publish address to be /api/
+[1/9/17 16:09:46:163 GST] 00000045 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [GetStartedJava] [/GetStartedJava] [wasdev.sample.rest.VisitorAPI]: Initialization successful.
+[1/9/17 16:17:10:762 GST] 0000000d com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0085I: The server defaultServer is stopping because the JVM is exiting.
+[1/9/17 16:17:10:788 GST] 000000c3 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[1/9/17 16:17:10:924 GST] 000000c4 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 9080.
+[1/9/17 16:17:10:927 GST] 000000c4 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://192.168.1.111:9080/GetStartedJava/
+[1/9/17 16:17:10:945 GST] 000000c3 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[1/9/17 16:17:11:185 GST] 00000092 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application GetStartedJava has stopped successfully.
+[1/9/17 16:17:11:485 GST] 000000c3 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[1/9/17 16:17:11:625 GST] 000000c3 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been deactivated. 
+[1/9/17 16:17:12:053 GST] 0000000e com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Friday, 1 September, 2017 at 4:17 PM. The server defaultServer is shutting down.
+[1/9/17 16:17:13:299 GST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 9 minutes, 22.077 seconds.

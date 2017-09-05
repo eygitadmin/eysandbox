@@ -1,0 +1,40 @@
+********************************************************************************
+product = WebSphere Application Server 17.0.0.2 (wlp-1.0.17.cl170220170523-1818)
+wlp.install.dir = /Users/balarama/Workspace/Sandbox/MyExperiments/get-started-java/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre
+java.version = 1.8.0_121
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_121-b13)
+os = Mac OS X (10.11.6; x86_64) (en_US)
+process = 3842@Balasubramanyas-MacBook-Pro.local
+********************************************************************************
+[1/9/17 16:17:34:893 GST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[1/9/17 16:17:34:908 GST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.2/lafiles/en.html
+[1/9/17 16:17:36:905 GST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 2.762 seconds
+[1/9/17 16:17:37:037 GST] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[1/9/17 16:17:38:529 GST] 00000010 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[1/9/17 16:17:39:431 GST] 00000010 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: The collective authentication plugin with class name NullCollectiveAuthenticationPlugin has been activated. 
+[1/9/17 16:17:39:515 GST] 0000001f com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: LTPA configuration is ready after 0.151 seconds.
+[1/9/17 16:17:40:040 GST] 00000010 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[1/9/17 16:17:40:301 GST] 0000001a com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[1/9/17 16:17:42:251 GST] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[1/9/17 16:17:42:255 GST] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[1/9/17 16:17:42:257 GST] 00000010 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/9/17 16:17:43:183 GST] 00000018 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application GetStartedJava.
+[1/9/17 16:17:44:773 GST] 00000018 org.jboss.weld.Version                                       I WELD-000900: 2.4.3 (Final)
+[1/9/17 16:17:45:934 GST] 00000018 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[1/9/17 16:17:45:967 GST] 00000018 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: GetStartedJava-1.0-SNAPSHOT.
+[1/9/17 16:17:45:971 GST] 00000018 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module GetStartedJava-1.0-SNAPSHOT has been bound to default_host.
+[1/9/17 16:17:45:974 GST] 00000018 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://192.168.1.111:9080/GetStartedJava/
+[1/9/17 16:17:45:986 GST] 00000018 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application GetStartedJava started in 2.803 seconds.
+[1/9/17 16:17:46:011 GST] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, ejbLite-3.2, managedBeans-1.0, jsf-2.2, beanValidation-1.1, servlet-3.1, ssl-1.0, jndi-1.0, jsonp-1.0, appSecurity-2.0, jdbc-4.1, jaxrs-2.0, jaxrsClient-2.0, el-3.0, json-1.0, jpaContainer-2.1, cdi-1.2, distributedMap-1.0, webProfile-7.0, websocket-1.1, jpa-2.1].
+[1/9/17 16:17:46:011 GST] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 9.106 seconds.
+[1/9/17 16:17:46:012 GST] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[1/9/17 16:17:46:091 GST] 0000001c com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/GetStartedJava
+[1/9/17 16:17:46:118 GST] 0000001c com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[1/9/17 16:17:46:333 GST] 0000001c com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[1/9/17 16:17:46:624 GST] 0000001e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/balarama/Workspace/Sandbox/MyExperiments/get-started-java/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[1/9/17 16:18:42:604 GST] 0000002f SystemOut                                                    O Running locally. Looking for credentials in cloudant.properties
+[1/9/17 16:18:42:633 GST] 0000002f SystemOut                                                    O To use a database, set the Cloudant url in src/main/resources/cloudant.properties
+[1/9/17 16:18:42:868 GST] 0000002f .ibm.ws.jaxrs.2.0.common:1.0.17.cl170220170523-1818(id=171)] I Setting the server's publish address to be /api/
+[1/9/17 16:18:43:265 GST] 0000002f com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [GetStartedJava] [/GetStartedJava] [wasdev.sample.rest.VisitorAPI]: Initialization successful.
+[1/9/17 16:18:56:334 GST] 0000003c SystemOut                                                    O Visiting person: testing 1 2 3
